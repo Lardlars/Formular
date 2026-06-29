@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Große A-Frame Welt</title>
+
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ========================= -->
+    <!-- VERLASSENE STADT -->
+    <!-- ========================= -->
+
+    <a-box
+      position="150 5 -250"
+      width="20"
+      height="10"
+      depth="20"
+      color="#888"
+    ></a-box>
+    <a-box
+      position="180 8 -270"
+      width="15"
+      height="16"
+      depth="15"
+      color="#777"
+    ></a-box>
+    <a-box
+      position="120 6 -280"
+      width="18"
+      height="12"
+      depth="18"
+      color="#666"
+    ></a-box>
+    <a-box
+      position="170 4 -220"
+      width="12"
+      height="8"
+      depth="12"
+      color="#555"
+    ></a-box>
+
+    <!-- STRASSEN -->
+
+    <a-box
+      position="150 0.1 -250"
+      width="100"
+      height="0.2"
+      depth="8"
+      color="#333"
+    ></a-box>
+    <a-box
+      position="150 0.1 -300"
+      width="8"
+      height="0.2"
+      depth="100"
+      color="#333"
+    ></a-box>
+
+    <!-- ========================= -->
+    <!-- VULKAN -->
+    <!-- ========================= -->
+
+    <a-cone
+      position="-300 60 -500"
+      radius-bottom="80"
+      height="120"
+      color="#4A4A4A"
+    >
+    </a-cone>
+
+    <a-cylinder position="-300 120 -500" radius="12" height="10" color="#222">
+    </a-cylinder>
+
+    <a-sphere
+      position="-300 140 -500"
+      radius="10"
+      color="orange"
+      animation="
+    property: scale;
+    to: 1.4 1.4 1.4;
+    dur: 1000;
+    dir: alternate;
+    loop: true"
+    >
+    </a-sphere>
+
+    <!-- ========================= -->
+    <!-- PYRAMIDEN -->
+    <!-- ========================= -->
+
+    <a-cone
+      position="350 25 -450"
+      radius-bottom="40"
+      height="50"
+      segments-radial="4"
+      rotation="0 45 0"
+      color="#D4AF37"
+    >
+    </a-cone>
+
+    <a-cone
+      position="420 20 -470"
+      radius-bottom="30"
+      height="40"
+      segments-radial="4"
+      rotation="0 45 0"
+      color="#C9A227"
+    >
+    </a-cone>
+
+    <!-- ========================= -->
+    <!-- UFO -->
+    <!-- ========================= -->
+
+    <a-cylinder
+      position="0 250 -300"
+      radius="15"
+      height="3"
+      color="silver"
+      animation="
+    property: rotation;
+    to: 0 360 0;
+    loop: true;
+    dur: 10000"
+    >
+    </a-cylinder>
+
+    <a-sphere position="0 253 -300" radius="6" color="#88FFFF"> </a-sphere>
+
+    <!-- ========================= -->
+    <!-- LEUCHTTURM -->
+    <!-- ========================= -->
+
+    <a-cylinder position="-220 20 -80" radius="6" height="40" color="white">
+    </a-cylinder>
+
+    <a-light
+      position="-220 40 -80"
+      type="spot"
+      angle="45"
+      intensity="5"
+      color="#ffffaa"
+    >
+    </a-light>
+
+    <!-- ========================= -->
+    <!-- KRISTALLFELD -->
+    <!-- ========================= -->
+
+    <a-octahedron position="-450 4 -300" radius="6" color="cyan"></a-octahedron>
+    <a-octahedron
+      position="-470 4 -340"
+      radius="8"
+      color="magenta"
+    ></a-octahedron>
+    <a-octahedron position="-430 4 -360" radius="5" color="lime"></a-octahedron>
+    <a-octahedron
+      position="-500 4 -320"
+      radius="7"
+      color="yellow"
+    ></a-octahedron>
+
+    <!-- ========================= -->
+    <!-- RIESENBAUM -->
+    <!-- ========================= -->
+
+    <a-cylinder position="250 20 -100" radius="5" height="40" color="#5D4037">
+    </a-cylinder>
+
+    <a-sphere position="250 50 -100" radius="20" color="#2E7D32"> </a-sphere>
+
+    <!-- ========================= -->
+    <!-- FLIEGENDE INSEL -->
+    <!-- ========================= -->
+
+    <a-box
+      position="0 120 -600"
+      width="80"
+      height="10"
+      depth="80"
+      color="#4CAF50"
+    >
+    </a-box>
+
+    <a-cone position="0 95 -600" radius-bottom="25" height="50" color="#795548">
+    </a-cone>
+
+    <a-box position="0 130 -600" width="15" height="15" depth="15" color="#999">
+    </a-box>
+
+    <!-- ========================= -->
+    <!-- REGENBOGEN -->
+    <!-- ========================= -->
+
+    <a-torus
+      position="80 60 -180"
+      radius="50"
+      radius-tubular="1"
+      arc="180"
+      rotation="0 0 90"
+      color="red"
+    >
+    </a-torus>
+
+    <a-torus
+      position="80 60 -180"
+      radius="47"
+      radius-tubular="1"
+      arc="180"
+      rotation="0 0 90"
+      color="orange"
+    >
+    </a-torus>
+
+    <a-torus
+      position="80 60 -180"
+      radius="44"
+      radius-tubular="1"
+      arc="180"
+      rotation="0 0 90"
+      color="yellow"
+    >
+    </a-torus>
+
+    <a-torus
+      position="80 60 -180"
+      radius="41"
+      radius-tubular="1"
+      arc="180"
+      rotation="0 0 90"
+      color="green"
+    >
+    </a-torus>
+
+    <a-torus
+      position="80 60 -180"
+      radius="38"
+      radius-tubular="1"
+      arc="180"
+      rotation="0 0 90"
+      color="blue"
+    >
+    </a-torus>
+
+    <!-- ========================= -->
+    <!-- STERNE -->
+    <!-- ========================= -->
+
+    <a-entity id="stars"></a-entity>
+
+    <script>
+      const stars = document.querySelector("#stars");
+
+      for (let i = 0; i < 300; i++) {
+        const star = document.createElement("a-sphere");
+
+        star.setAttribute("radius", Math.random() * 0.5 + 0.1);
+
+        star.setAttribute("color", "white");
+
+        star.setAttribute(
+          "position",
+          `${Math.random() * 2000 - 1000}
+        ${Math.random() * 400 + 100}
+        ${Math.random() * -2000}`,
+        );
+
+        stars.appendChild(star);
+      }
+    </script>
+    <a-scene>
+      <!-- HIMMEL -->
+      <a-sky color="#6DB6FF"></a-sky>
+
+      <!-- LICHT -->
+      <a-light type="ambient" intensity="1"> </a-light>
+
+      <a-light type="directional" intensity="1.5" position="30 50 20">
+      </a-light>
+
+      <!-- SONNE -->
+      <a-sphere position="120 100 -200" radius="12" color="#FFD54F"> </a-sphere>
+
+      <!-- SPIELER -->
+      <a-entity id="player" position="0 5 40">
+        <a-camera wasd-controls="acceleration:200" look-controls> </a-camera>
+      </a-entity>
+
+      <!-- BODEN -->
+      <a-plane rotation="-90 0 0" width="1000" height="1000" color="#43A047">
+      </a-plane>
+
+      <!-- SEE -->
+      <a-cylinder
+        position="-120 0.1 -80"
+        radius="40"
+        height="0.2"
+        color="#42A5F5"
+      >
+      </a-cylinder>
+
+      <!-- GROSSER BERG -->
+
+      <a-cone
+        position="0 60 -150"
+        radius-bottom="90"
+        height="120"
+        color="#757575"
+      >
+      </a-cone>
+
+      <a-cone
+        position="0 105 -150"
+        radius-bottom="45"
+        height="70"
+        color="#8D8D8D"
+      >
+      </a-cone>
+
+      <a-cone
+        position="0 140 -150"
+        radius-bottom="18"
+        height="30"
+        color="#FFFFFF"
+      >
+      </a-cone>
+
+      <!-- NEBENBERGE -->
+
+      <a-cone
+        position="-150 35 -220"
+        radius-bottom="55"
+        height="70"
+        color="#666"
+      >
+      </a-cone>
+
+      <a-cone
+        position="150 45 -240"
+        radius-bottom="65"
+        height="85"
+        color="#666"
+      >
+      </a-cone>
+
+      <a-cone
+        position="-260 25 -300"
+        radius-bottom="50"
+        height="60"
+        color="#555"
+      >
+      </a-cone>
+
+      <a-cone
+        position="280 30 -320"
+        radius-bottom="60"
+        height="70"
+        color="#555"
+      >
+      </a-cone>
+
+      <!-- TEMPEL -->
+
+      <a-box
+        position="0 2 -70"
+        width="40"
+        height="4"
+        depth="25"
+        color="#C8B58A"
+      >
+      </a-box>
+
+      <a-box
+        position="0 16 -70"
+        width="42"
+        height="2"
+        depth="27"
+        color="#D7C6A2"
+      >
+      </a-box>
+
+      <!-- SÄULEN -->
+
+      <a-cylinder
+        position="-15 9 -60"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+      <a-cylinder
+        position="-5 9 -60"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+      <a-cylinder
+        position="5 9 -60"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+      <a-cylinder
+        position="15 9 -60"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+
+      <a-cylinder
+        position="-15 9 -80"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+      <a-cylinder
+        position="-5 9 -80"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+      <a-cylinder
+        position="5 9 -80"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+      <a-cylinder
+        position="15 9 -80"
+        radius="1.2"
+        height="14"
+        color="#EFE2C3"
+      ></a-cylinder>
+
+      <!-- STRASSE -->
+
+      <a-box
+        position="0 0.1 20"
+        width="12"
+        height="0.2"
+        depth="20"
+        color="#777"
+      ></a-box>
+      <a-box
+        position="0 0.1 0"
+        width="12"
+        height="0.2"
+        depth="20"
+        color="#777"
+      ></a-box>
+      <a-box
+        position="0 0.1 -20"
+        width="12"
+        height="0.2"
+        depth="20"
+        color="#777"
+      ></a-box>
+      <a-box
+        position="0 0.1 -40"
+        width="12"
+        height="0.2"
+        depth="20"
+        color="#777"
+      ></a-box>
+      <a-box
+        position="0 0.1 -60"
+        width="12"
+        height="0.2"
+        depth="20"
+        color="#777"
+      ></a-box>
+
+      <!-- WALD -->
+
+      <a-entity id="forest"></a-entity>
+
+      <script>
+        const forest = document.querySelector("#forest");
+
+        for (let x = -300; x <= 300; x += 30) {
+          for (let z = -350; z <= 50; z += 30) {
+            if (Math.random() > 0.35) {
+              const tree = document.createElement("a-entity");
+
+              tree.innerHTML = `
+                        <a-cylinder
+                            radius="0.5"
+                            height="6"
+                            color="#6D4C41"
+                            position="0 3 0">
+                        </a-cylinder>
+
+                        <a-cone
+                            radius-bottom="4"
+                            height="8"
+                            color="#1B5E20"
+                            position="0 8 0">
+                        </a-cone>
+                    `;
+
+              tree.setAttribute("position", `${x} 0 ${z}`);
+
+              forest.appendChild(tree);
+            }
+          }
+        }
+      </script>
+
+      <!-- FELSEN -->
+
+      <a-sphere position="50 3 -30" radius="3" color="#777"></a-sphere>
+      <a-sphere position="60 2 -40" radius="2" color="#777"></a-sphere>
+      <a-sphere position="-80 4 -60" radius="4" color="#777"></a-sphere>
+      <a-sphere position="100 5 -90" radius="5" color="#777"></a-sphere>
+      <a-sphere position="-130 3 -120" radius="3" color="#777"></a-sphere>
+
+      <!-- WOLKEN -->
+
+      <a-sphere position="-150 80 -200" radius="10" color="white"></a-sphere>
+      <a-sphere position="-140 80 -200" radius="8" color="white"></a-sphere>
+
+      <a-sphere position="100 70 -180" radius="9" color="white"></a-sphere>
+      <a-sphere position="110 70 -180" radius="7" color="white"></a-sphere>
+
+      <a-sphere position="0 90 -250" radius="12" color="white"></a-sphere>
+      <a-sphere position="12 90 -250" radius="8" color="white"></a-sphere>
+    </a-scene>
+
+    <script>
+      document.addEventListener("keydown", function (e) {
+        const player = document.querySelector("#player");
+
+        let pos = player.object3D.position;
+
+        // Hoch fliegen
+        if (e.code === "Space") {
+          pos.y += 3;
+        }
+
+        // Runter fliegen
+        if (e.code === "ShiftLeft") {
+          pos.y -= 3;
+        }
+      });
+    </script>
+  </body>
+</html>
